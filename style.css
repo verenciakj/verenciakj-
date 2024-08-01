@@ -1,0 +1,41 @@
+#videobackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.content {
+    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(103, 153, 161, 0.5);
+    color: rgb(228, 225, 187);
+    height: 10vh;
+    width: 100%;
+}
+
+.content h1{
+    margin-left: 34em;
+    margin-top: -30px;
+    color: white;
+}
+
+
+.content ul li{
+    margin-top: 9px;
+    list-style: none;
+    display: inline-block;
+    margin-left:40px;
+    color: white;
+}
+
+.content ul li a{
+    text-decoration: none;
+    color: #fffefe;
+    font-size: 17px;
+    margin-top: 4px;
+   
+}
